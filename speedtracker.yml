@@ -73,9 +73,9 @@ alerts:
 #  otherEmailAlert:
 #    type: "email"
 #    recipients: ["ENCRYPTED_EMAIL_ADDRESS2", "ENCRYPTED_EMAIL_ADDRESS3"]
-#  slackAlert:
-#    type: "slack"
-#    hookUrl: "ENCRYPTED_SLACK_HOOK_URL"
-#    channel: "#speedtracker"
-#    username: "SpeedTracker"
-#    iconEmoji: ":grimacing:"
+  slackAlert:
+    type: "slack"
+    hookUrl: "https://hooks.slack.com/services/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"
+    channel: "#speedtracker"
+    username: "SpeedTracker"
+    iconEmoji: ":grimacing:"
